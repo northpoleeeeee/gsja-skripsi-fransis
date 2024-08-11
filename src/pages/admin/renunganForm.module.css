@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+}
+
+.formContainer {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; /* Adjust to fit the sidebar width */
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns layout */
+  gap: 20px; /* Space between rows and columns */
+  background-color: #f9f9f9; /* Light background for form */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between label and input */
+}
+
+.formGroup label {
+  font-weight: bold;
+}
+
+.formGroup input[type="text"], .formGroup textarea, .formGroup input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+}
+
+.formGroup textarea {
+  resize: vertical; /* Allows only vertical resizing */
+  min-height: 100px; /* Minimum height for textarea */
+}
+
+.submitButton {
+  grid-column: span 2; /* Span the button across two columns */
+  padding: 10px 20px;
+  background-color: #b9c4c3; /* Green background for submit button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submitButton:hover {
+  background-color: #4574a0; /* Darker green on hover */
+}
+
+.error {
+  color: red;
+  grid-column: span 2; /* Span the error message across two columns */
+  text-align: center;
+}

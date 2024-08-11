@@ -1,0 +1,51 @@
+/* CSS Module for Admin Dashboard */
+
+.dashboardContainer {
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    padding: 2rem;
+    margin-left: 250px; /* Sesuaikan sesuai dengan lebar sidebar */
+  }
+  
+  .title {
+    margin-bottom: 2rem; /* Jarak bawah untuk judul */
+    font-size: 2rem;
+    color: #000; /* Warna judul, sesuaikan jika diperlukan */
+  }
+  
+  .containerWrapper {
+    display: flex;
+    flex-direction: row; /* Menyusun kotak data dalam baris */
+    gap: 1rem; /* Jarak antara kotak */
+    flex-wrap: wrap; /* Memungkinkan kontainer membungkus ke baris berikutnya jika diperlukan */
+  }
+  
+  .container {
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    width: 200px; /* Ukuran kotak kecil */
+    height: 100px; /* Ukuran kotak kecil */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blueBackground {
+    background-color: #007bff; /* Biru */
+  }
+  
+  .greenBackground {
+    background-color: #28a745; /* Hijau */
+  }
+  
+  .yellowBackground {
+    background-color: #ffc107; /* Kuning */
+    color: #333; /* Warna teks lebih gelap agar terbaca pada latar belakang kuning */
+  }
+  
+  .pinkBackground {
+    background-color: #e83e8c; /* Pink */
+  }
+  

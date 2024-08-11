@@ -1,0 +1,67 @@
+/* renungan.module.css */
+.container {
+  padding: 20px;
+}
+
+.renunganItem {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 1.5em;
+  transition: transform 0.3s;
+}
+
+.body {
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.speakButton, .stopButton {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.speakButton {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.speakButton:hover, .speakButton:focus {
+  background-color: #0056b3;
+}
+
+.stopButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.stopButton:hover, .stopButton:focus {
+  background-color: #c82333;
+}
