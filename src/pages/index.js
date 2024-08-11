@@ -36,7 +36,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="my-4 text-lg">
-              Maka Yesus berkata pula kepada orang banyak, kata-Nya: "Akulah terang dunia; barangsiapa mengikut Aku, ia tidak akan berjalan dalam kegelapan, melainkan ia akan mempunyai terang hidup".
+              Maka Yesus berkata pula kepada orang banyak, kata-Nya: &quot;Akulah terang dunia; barangsiapa mengikut Aku, ia tidak akan berjalan dalam kegelapan, melainkan ia akan mempunyai terang hidup&quot;.
             </p>
             <Link
               href="https://id.wikipedia.org/wiki/Gereja_Sidang-Sidang_Jemaat_Allah"

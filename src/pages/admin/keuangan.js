@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AdminNavbar from '@/components/AdminNavbar';
 import AdminSidebar from '@/components/AdminSidebar';
-import styles from './AddKeuangan.module.css';
+import styles from './Addkeuangan.module.css';
 
 export default function AddKeuangan() {
   const [bulan, setBulan] = useState('');
